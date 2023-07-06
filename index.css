@@ -24,7 +24,7 @@
     height: 800px;
     display: flex;
     /* justify-content: right; */
-    background: url(/Project6/images/bg.jpg);
+    background: url(/images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 6px;
