@@ -1,0 +1,152 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+
+.s-1
+{
+    background-color: rgb(31, 29, 29);
+    border: 2px solid black;
+    padding: 20px;
+    height: 790px;
+    /* background-color: azure; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.music-card
+{
+    /* border: 2px solid blue; */
+    padding: 10px;
+    height: 800px;
+    display: flex;
+    /* justify-content: right; */
+    background: url(/Project6/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    /* color: white; */
+}
+.card
+{
+    /* border: 2px solid green; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 600px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    /* justify-content: center; */
+}
+#card-img
+{
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid red; */
+    border-radius: 6px;
+}
+.buttons
+{
+    /* border: 2px solid white; */
+    margin-top:30px;
+    padding: 10px;
+}
+.btn > i
+{
+    font-size: 1.4rem;
+    /* font-weight: 500; */
+    color: rgb(203, 202, 202);
+}
+.btn
+{
+    background: none;
+    /* border: 2px solid orange; */
+    padding: 7px;
+    border: none;
+    margin: 8px;
+    cursor: pointer;
+    /* font-weight: 100; */
+}
+
+.song-text
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 2px solid violet; */
+    padding: 10px;
+    margin: 10px;
+    color: rgb(206, 206, 206);
+    width: 400px;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#sn-txt
+{
+    /* border: 2px solid greenyellow; */
+    padding: 5px;
+    /* align-self: center; */
+    text-align: center;
+    padding-top: 10px;
+    /* margin-left: 0px; */
+}
+
+#sn-gf
+{
+    /* border: 2px solid skyblue; */
+    opacity: 0;
+    height: 50px;
+    width: 60px;
+    margin-left: 40px;
+}
+.songlist
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 2px solid white; */
+    color: rgb(232, 229, 229);
+    padding: 10px;
+    width: 800px;
+    font-weight: 600;
+}
+.son
+{
+    /* border: 2px solid red; */
+    margin: 20px 5px;
+    padding: 7px 5px;
+    padding-left: 10px;
+    display: flex;
+    width: 400px;
+    border-radius: 5px;
+     margin-left: 250px;
+     background-color: rgb(37, 36, 36);
+}
+#list-img
+{
+    height: 50px;
+    width: 50px;
+    /* margin-left: 250px; */
+}
+.son-ls-txt
+{
+    /* border: 2px solid lightcoral; */
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    /* margin-left: 50px; */
+}
+
+input[type = 'range']
+{
+    border: 2px solid white;
+    background-color: green;
+    width: 200px;
+    /* height: 10px; */
+    /* font-size: small; */
+    opacity: 50%;
+}
