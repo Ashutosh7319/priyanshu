@@ -33,12 +33,12 @@ let ctext =
 ]
 let cover =
 [
-    {coverpath: "/Project6/images/cover1.jpg"},
-    {coverpath: "/Project6/images/cover2.jpg"},
-    {coverpath: "/Project6/images/cover3.jpg"},
-    {coverpath: "/Project6/images/cover4.jpg"},
-    {coverpath: "/Project6/images/cover5.jpg"},
-    {coverpath: "/Project6/images/cover6.jpg"},
+    {coverpath: "/images/cover1.jpg"},
+    {coverpath: "/images/cover2.jpg"},
+    {coverpath: "/images/cover3.jpg"},
+    {coverpath: "/images/cover4.jpg"},
+    {coverpath: "/images/cover5.jpg"},
+    {coverpath: "/images/cover6.jpg"},
 ]
 // audioElement.play();
 
