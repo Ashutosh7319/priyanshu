@@ -153,3 +153,61 @@ input[type = 'range']
     /* font-size: small; */
     opacity: 50%;
 }
+@media screen and (min-width: 375px)
+{
+
+    .s-1
+    {
+        background-color: rgb(31, 29, 29);
+        /* border: 2px solid rgb(237, 230, 230); */
+        padding: 20px;
+        height: 1700px;
+        width: 100%;
+        /* background-color: azure; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .music-card
+    { 
+    /* border: 2px solid blue; */
+    padding: 10px;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: left;
+    /* background: url(/Project6/images/bg.jpg); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px; */
+    /* color: white; */
+}
+.card
+{
+    flex-direction: column;
+    margin-left: -300px;
+    margin-top: 900px;;
+    margin-right: 100px;
+    height: 500px;
+    width: 380px;
+    }
+    .songlist
+    {
+        display: flex;
+        flex-direction: column;
+        /* padding-left: -200px; */
+        justify-content: left;
+        height: 820px;;
+    }
+    .son
+    {
+        margin-left: 0;
+        justify-content: left;
+        display: flex;
+        font-size: small;
+        width: 250px;
+        /* height: 300px; */
+        /* width: 300px; */
+    }
+}
