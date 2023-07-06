@@ -41,6 +41,9 @@
     align-items: center;
     margin-left: 100px;
     margin-top: 50px;
+    background-color: rgb(31, 27, 27);
+    border-radius: 6px;
+    opacity: 85%;
     /* justify-content: center; */
 }
 #card-img
