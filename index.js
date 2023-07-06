@@ -33,12 +33,13 @@ let ctext =
 ]
 let cover =
 [
-    {coverpath: "/images/cover1.jpg"},
-    {coverpath: "/images/cover2.jpg"},
-    {coverpath: "/images/cover3.jpg"},
-    {coverpath: "/images/cover4.jpg"},
-    {coverpath: "/images/cover5.jpg"},
-    {coverpath: "/images/cover6.jpg"},
+    {coverpath: "/Project6/images/cover1.jpg"},
+    {coverpath: "/Project6/images/cover3.jpg"},
+    {coverpath: "/Project6/images/cover2.jpg"},
+    {coverpath: "/Project6/images/cover4.jpg"},
+    {coverpath: "/Project6/images/cover6.jpg"},
+    {coverpath: "/Project6/images/cover5.jpg"},
+    {coverpath: "/Project6/images/cover1.jpg"},
 ]
 // audioElement.play();
 
@@ -97,7 +98,8 @@ Array.from(pley).forEach((element)=>
         makeAllPLays();
         e.target.classList.remove('fa-play');
         e.target.classList.add('fa-pause');
-        audioElement.src = `music/${songIndex}.mp3`;
+        audioElement.src = `music/${songIndex}.mp3`
+        console.log(songIndex);
         audioElement.currentTime = 0;
         audioElement.play();
         masterPlay.classList.remove('fa-play');
@@ -111,7 +113,7 @@ Array.from(pley).forEach((element)=>
 document.getElementById('right').addEventListener('click', ()=>{
     if(songIndex > 6)
     {
-        songIndex = 0;
+        songIndex = 1;
     }
     else
     {
@@ -124,12 +126,12 @@ document.getElementById('right').addEventListener('click', ()=>{
     masterPlay.classList.add('fa-pause');
     cardImg.src = cover[songIndex-1].coverpath;
     cardText.textContent = ctext[songIndex-1].txt;
- 
+    gif.style.opacity = 1; 
 })
 document.getElementById('left').addEventListener('click', ()=>{
-    if(songIndex <= 0)
+    if(songIndex < 1)
     {
-        songIndex = 0;
+        songIndex = 7;
     }
     else
     {
@@ -140,6 +142,8 @@ document.getElementById('left').addEventListener('click', ()=>{
     audioElement.play();
     masterPlay.classList.remove('fa-play');
     masterPlay.classList.add('fa-pause');
+    console.log(songIndex);
     cardImg.src = cover[songIndex-1].coverpath;
     cardText.textContent = ctext[songIndex-1].txt;
+    gif.style.opacity = 1; 
 })
