@@ -126,6 +126,7 @@ document.getElementById('right').addEventListener('click', ()=>{
     masterPlay.classList.add('fa-pause');
     cardImg.src = cover[songIndex-1].coverpath;
     cardText.textContent = ctext[songIndex-1].txt;
+    makeAllPLays();
     gif.style.opacity = 0.5;
 })
 document.getElementById('left').addEventListener('click', ()=>{
@@ -146,4 +147,5 @@ document.getElementById('left').addEventListener('click', ()=>{
     cardImg.src = cover[songIndex-1].coverpath;
     cardText.textContent = ctext[songIndex-1].txt;
     gif.style.opacity = 0.5;
+    makeAllPLays();
 })
