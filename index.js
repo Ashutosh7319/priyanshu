@@ -60,7 +60,7 @@ masterPlay.addEventListener('click', ()=>
         audioElement.pause();
         masterPlay.classList.remove('fa-pause');
         masterPlay.classList.add('fa-play');
-        gif.style.opacity = 0.5;
+        // gif.style.opacity = 0.5;
     }
 }
 )
