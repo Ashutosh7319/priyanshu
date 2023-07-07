@@ -53,14 +53,14 @@ masterPlay.addEventListener('click', ()=>
         masterPlay.classList.remove('fa-play');
         masterPlay.classList.add('fa-pause');
         // masterPlay.innerText('fas fa-pause');
-        gif.style.opacity = 50%;
+        gif.style.opacity = 0.5;
     }
     else
     {
         audioElement.pause();
         masterPlay.classList.remove('fa-pause');
         masterPlay.classList.add('fa-play');
-        gif.style.opacity = 50%;
+        gif.style.opacity = 0.5;
     }
 }
 )
@@ -104,7 +104,7 @@ Array.from(pley).forEach((element)=>
         audioElement.play();
         masterPlay.classList.remove('fa-play');
         masterPlay.classList.add('fa-pause');
-        gif.style.opacity = 50%;  
+        gif.style.opacity = 0.5;  
         cardImg.src = cover[songIndex-1].coverpath;
         cardText.textContent = ctext[songIndex-1].txt;
     })
@@ -126,7 +126,7 @@ document.getElementById('right').addEventListener('click', ()=>{
     masterPlay.classList.add('fa-pause');
     cardImg.src = cover[songIndex-1].coverpath;
     cardText.textContent = ctext[songIndex-1].txt;
-    gif.style.opacity = 50%; 
+    gif.style.opacity = 0.5;
 })
 document.getElementById('left').addEventListener('click', ()=>{
     if(songIndex < 1)
@@ -145,5 +145,5 @@ document.getElementById('left').addEventListener('click', ()=>{
     console.log(songIndex);
     cardImg.src = cover[songIndex-1].coverpath;
     cardText.textContent = ctext[songIndex-1].txt;
-    gif.style.opacity = 50%;
+    gif.style.opacity = 0.5;
 })
